@@ -4,18 +4,25 @@ body {
     margin: 0;
 }
 
+/* HEADER */
+
 .header {
     background-color:#111;
 }
 
-.nav-list {
+.nav_list {
     list-style: none;
+    text-decoration: none;
 }
 
-a {
+ul li a {
     text-decoration: none;
     color: #fff;
 }
+
+/* HEADER ENDS */
+
+/* MAIN */
 
 .title {
     text-align: center;
@@ -33,20 +40,36 @@ a {
     color:#fff;
 }
 
+/* MAIN ENDS */
+
+/* PREGUNTAS */
+
 .preguntas {
     color: #fff;
     background-color: #111;
     text-align: center;
 }
 
+/* PREGUNTAS ENDS */
+
+/* SOBRE NOSOTROS */
+
 .sobre_nosotros{
     background-color: #111;
 }
+
+/* SOBRE NOSOTROS ENDS */
+
+/* PRODUCTOS */
 
 .productos {
     background-color: #111;
     color: #fff;
 }
+
+/* PRODUCTOS ENDS */
+
+/* FORM */
 
 .form-title {
     text-align: center;
@@ -61,8 +84,13 @@ label {
     color: #fff;
 }
 
+/* FORM ENDS */
+
+/* FOOTER */
+
 .footer {
     text-align: center;
     color: #fff;
 }
 
+/* FOOTER ENDS */
