@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img, svg, video{
+	max-width: 100%;
+	display: inline-block;
+}
+
+main {
+    position: relative;
+}
+
+.containerMain {
+    padding: 50px;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    color: #0f0;
+}
+
+h2 {
+    color: #0bf;
+    font-family: "Nunito", sans-serif;
+}
+
+span {
+    background-color: #fa0;
+}
+
+header nav ul li a {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+    padding: 10px 20px;
+    background-color: #ccc;
+    text-decoration: none;
+    color: #000;
+}
+
+header nav {
+    height: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+header {
+    background-color: #a0f;
+    padding: 30px 20px;
+    height: 100%;
+}
+
+.subtitulo-dos {
+    color: #0f0;
+    text-decoration: underline;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#ecommerce-title {
+    /* color: #a0f; */
+    font-size: 40px;
+    text-align: center;
+    position: sticky;
+    background-color: #222;
+    top: 0;
+    z-index: 1;
+}
+
+.parrafo-rojo {
+    color: #f00;
+}
+
+.parrafo-italic {
+    font-style: italic;
+}
+
+#titulo-ecommerce {
+    text-transform: uppercase;
+}
+
+p {
+    color: #a0f;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    gap: 10px;
+    min-height: 500px;
+    background-color: #222;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    background-color: #ddd;
+    border: 3px solid #f00;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.card p {
+    margin: 20px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.like {
+    width: 30px;
+    margin: 5px;
+    position: absolute;
+    right: 0px;
+}
+
+.whatsapp {
+    width: 60px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
