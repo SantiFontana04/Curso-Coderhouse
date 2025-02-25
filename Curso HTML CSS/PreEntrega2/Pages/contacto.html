@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="icon" href="../Imagenes/favicon.ico" type="image">
+    <meta name="description" content="Esta página es para tener un sitio web de La Atajada ">
+    <meta name="author" content="Santiago Fontana">
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="../Imagenes/Logo.png" alt="Logo">
+            </div>
+            <ul class="nav_list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--HEADER ENDS-->
+
+    <!--MAIN-->
+        <main>
+            <section>
+                <h1 class="title">CONTACTO</h1>
+                <form class="form">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required>
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" name="asunto" id="asunto" placeholder="Ingresa el asunto" required>
+                    <label>Acepto los terminos y condiciones</label>
+                    <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                    <input type="submit" name="enviar" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <!--MAIN ENDS-->
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <section>
+                <p>Copyright © 2023-2024 La Atajada</p>
+            </section>
+        </footer>
+        <!--FOOTER ENDS-->
+</body>
+</html>
