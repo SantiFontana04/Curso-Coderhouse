@@ -52,3 +52,16 @@ sueldo = 2000000;
 sueldoDolares = sueldo / dolarBlueCompra
 
 console.log(sueldoDolares)
+
+// Actividad
+
+let texto = prompt("Ingresá un texto (escribí 'ESC' para salir):");
+let agregado = prompt("Ingresá el texto que querés agregar en cada repetición:");
+
+while (texto !== "ESC") {
+    texto += agregado;
+    console.log(texto);
+    texto = prompt("Ingresá otro texto (escribí 'ESC' para salir):");
+}
+
+
